@@ -15,6 +15,11 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+@font-face {
+    font-family: adreenaScript;
+    src: url("fonts/AdreenaScript-Demo.ttf");
+}
+
 body {
     background-color: rgb(255, 247, 247);
     /* background-image:     url("./fundo_.jpg"); */
@@ -47,6 +52,10 @@ main {
 .nav-title,
 .nav-item {
     display: inline-block;
+}
+
+.nav-title {
+    font-family: adreenaScript;
 }
 
 .nav-list {
@@ -87,6 +96,11 @@ section#second-section {
 .container-foto img {
     width: 40%;
     margin-right: 20px;
+}
+
+.img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .texto-base {
@@ -200,4 +214,9 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+video {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
