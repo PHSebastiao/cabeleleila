@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Cabeleleila</title>
-        <link rel="stylesheet" href="assets/styles.css" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
-            rel="stylesheet"
-        />
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cabeleleila</title>
+    <link rel="stylesheet" href="assets/styles.css" />
 
-    <body>
-        <header>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid rgba(30, 30, 30, 0.3);
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(30, 30, 30, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
         <div class="navbar">
             <h2 class="nav-title">
                 Cabeleleila <!-- Sujeito a alteração (para uma imagem)-->
@@ -25,9 +43,9 @@
                 <li class="nav-item">
                     <a href="./">Início</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="./cortes.html">Cortes</a>
-                </li>
+                </li> -->
                 <li class="nav-item active">
                     <a href="./planos.html">Planos</a>
                 </li>
@@ -40,6 +58,130 @@
             </ul>
         </div>
     </header>
-    <main></main>
-    </body>
+    <main>
+        <div class="container">
+            <h2>Serviços no precinho para você!</h2>
+            <audio controls>
+                <source src="assets/beleleila-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>Tudo esterilizado para você não ficar mal!</p>
+            <h3>Cabelos</h3>
+            <table>
+                <tr>
+                    <th>Tipo do Corte</th>
+                    <th>Descrição do Pacote</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Corte Masculino</td>
+                    <td>Corte de cabelo masculino com lavagem e secagem.</td>
+                    <td>R$ 30,00</td>
+                </tr>
+                <tr>
+                    <td>Corte Feminino</td>
+                    <td>Corte de cabelo feminino com lavagem, secagem e escova.</td>
+                    <td>R$ 50,00</td>
+                </tr>
+                <tr>
+                    <td>Corte Infantil</td>
+                    <td>Corte de cabelo infantil para crianças até 10 anos.</td>
+                    <td>R$ 20,00</td>
+                </tr>
+            </table>
+
+            <h3>Unhas</h3>
+            <table>
+                <tr>
+                    <th>Tipo do Serviço</th>
+                    <th>Descrição do Serviço</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Manicure Simples</td>
+                    <td>Corte e lixa das unhas, retirada de cutículas e esmaltação simples.</td>
+                    <td>R$ 25,00</td>
+                </tr>
+                <tr>
+                    <td>Pedicure Simples</td>
+                    <td>Corte e lixa das unhas dos pés, retirada de cutículas e esmaltação simples.</td>
+                    <td>R$ 35,00</td>
+                </tr>
+                <tr>
+                    <td>Manicure e Pedicure Simples</td>
+                    <td>Combinação dos serviços de manicure e pedicure simples.</td>
+                    <td>R$ 55,00</td>
+                </tr>
+                <tr>
+                    <td>Unhas Decoradas</td>
+                    <td>Decoração das unhas das mãos ou dos pés com desenhos e/ou strass.</td>
+                    <td>R$ 60,00</td>
+                </tr>
+            </table>
+
+            <h3>Hitratração</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipo de Hidratação</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hidratação Simples</td>
+                        <td>Hidratação básica para cabelos ressecados</td>
+                        <td>R$ 50,00</td>
+                    </tr>
+                    <tr>
+                        <td>Hidratação Profunda</td>
+                        <td>Hidratação intensiva com máscara hidratante</td>
+                        <td>R$ 80,00</td>
+                    </tr>
+                    <tr>
+                        <td>Cauterização</td>
+                        <td>Hidratação com queratina para cabelos danificados</td>
+                        <td>R$ 120,00</td>
+                    </tr>
+                    <tr>
+                        <td>Reconstrução</td>
+                        <td>Hidratação com proteínas para cabelos quebradiços</td>
+                        <td>R$ 150,00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>E Unhas</h3>
+            <table style="margin-bottom: 5rem">
+                <tr>
+                    <th>Tipo do Serviço</th>
+                    <th>Descrição do Serviço</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Manicure Simples</td>
+                    <td>Corte e lixa das unhas, retirada de cutículas e esmaltação simples.</td>
+                    <td>R$ 25,00</td>
+                </tr>
+                <tr>
+                    <td>Pedicure Simples</td>
+                    <td>Corte e lixa das unhas dos pés, retirada de cutículas e esmaltação simples.</td>
+                    <td>R$ 35,00</td>
+                </tr>
+                <tr>
+                    <td>Manicure e Pedicure Simples</td>
+                    <td>Combinação dos serviços de manicure e pedicure simples.</td>
+                    <td>R$ 55,00</td>
+                </tr>
+                <tr>
+                    <td>Unhas Decoradas</td>
+                    <td>Decoração das unhas das mãos ou dos pés com desenhos e/ou strass.</td>
+                    <td>R$ 60,00</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+
 </html>
