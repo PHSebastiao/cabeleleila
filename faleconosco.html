@@ -23,7 +23,7 @@
     <header>
         <div class="navbar">
             <h2 class="nav-title">
-                Cabeleleila <!-- Sujeito a alteração (para uma imagem)-->
+                <a href="./">Cabeleleila</a> <!-- Sujeito a alteração (para uma imagem)-->
             </h2>
             <ul class="nav-list">
                 <li class="nav-item">
@@ -62,11 +62,11 @@
                         <form id="my-form" action="https://formspree.io/f/mwkjrzgl" method="POST">
                             <div>
                                 <label class="form-label">Email:</label>
-                                <input type="email" class="form-input" name="email" />
+                                <input type="email" class="form-input" name="email" required/>
                             </div>
                             <div>
                                 <label class="form-label">Mensagem:</label>
-                                <textarea name="message" class="form-input" rows="4" cols="30"></textarea>
+                                <textarea name="message" class="form-input" rows="4" cols="30" required></textarea>
                             </div>
                             <button id="my-form-button" class="button button-primary">Enviar</button>
                             <p id="my-form-status"></p>
@@ -76,6 +76,11 @@
             </div>
         </div>
     </main>
+    <footer>
+        <div class="container footer">
+            <p class="text-muted">Direitos não reservados - 2023</p>
+        </div>
+    </footer>
 </body>
 
 </html>
