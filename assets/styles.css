@@ -144,8 +144,7 @@ section#second-section {
 
 .side {
     width: 40%;
-    height: 50%;
-    margin-top: 5rem;
+    padding: 4rem 0;
 }
 
 .side-right {
@@ -163,7 +162,6 @@ section#second-section {
 .card {
     display: flex;
     justify-content: center;
-    height: 80%;
     width: 60%;
     background-color: white;
     border: 1px solid #ccc !important;
